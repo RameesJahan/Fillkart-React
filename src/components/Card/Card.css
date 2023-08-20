@@ -1,0 +1,36 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  /* aspect-ratio: 16/9; */
+  border-radius: 5px;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  padding: 35px;
+}
+
+.card .highlight{
+  margin: .03em 0;
+  font-size: 2.25em;
+}
+
+.card .topic{
+  margin: .3em 0;
+  font-size: 1.5em;
+}
+
+.card .name{
+  margin: .02em 0;
+  font-size: 2em;
+  color: #faee00;
+  max-width: 60%;
+}
+
+.card.sm{
+  /* aspect-ratio: 16/7; */
+  font-size: .7rem;
+}

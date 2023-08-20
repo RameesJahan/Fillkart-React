@@ -1,0 +1,19 @@
+a{
+  text-decoration: none;
+}
+
+.container{
+  background: #eef1ff;
+}
+.section-top{
+  background: #fbfbfbf6;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+.section-footer{
+  padding: 25px;
+  background: #fbfbfbf6;
+  text-align: center;
+}
+.section-footer>p>a{
+  color: #0085FF;
+}

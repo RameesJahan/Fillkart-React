@@ -1,0 +1,31 @@
+.otr-deals-container{
+  padding: 8px;
+}
+
+.otr-deals-header{
+  display: flex;
+  align-items: center;
+  background: #fbfbfbf6;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  border-radius: 3px;
+  padding: 18px;
+  color: #1B1C1E;
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+
+.otr-deals-content{
+  display: flex;
+  position: relative;
+  width: 100%;
+  gap: 5px;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 520px) {
+  .otr-deals-content>*:not(:first-child){
+    display: none;
+  }
+}

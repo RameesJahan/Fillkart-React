@@ -1,0 +1,48 @@
+.pro-card{
+  position:relative;
+  background: #fbfbfbf6;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  border-radius: 3px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.pro-card-tag{
+  color: #fbfbfbf6;
+  position: absolute;
+  background: red;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: .75rem;
+}
+
+.pro-card-img{
+  padding: 22px;
+  width: 100%;
+}
+.pro-card-name{
+ margin: 8px;
+}
+.pro-card-price{
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 8px;
+  color: #0085FF;
+}
+.pro-card-price span{
+  font-size: 1.25rem;
+  color: #bdbdbd;
+  text-decoration: line-through;
+}
+
+.pro-card-btn{
+  margin: 8px;
+  font-size: 1.25rem;
+  padding: 12px;
+  border: none;
+  border-radius: 2px;
+  background: #0085FF;
+  color: #fbfbfbf6;
+  font-family: 'League Spartan', sans-serif;
+}

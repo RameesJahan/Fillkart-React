@@ -1,0 +1,27 @@
+.search-box{
+  display: flex;
+}
+
+.ipt-search{
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 12px 24px;
+  border: 3px solid rgb(239,239,239);
+  border-right: none;
+  border-radius: 3px 0 0 3px;
+  font-size: .95rem; 
+  font-family: 'League Spartan', sans-serif;
+}
+.btn-search{
+  color: #ffffff;
+  background: #0085ff;
+  border: none;
+  outline: none;
+  padding: 12px 24px;
+  font-weight: 500;
+  border: 3px solid #0085ff;
+  border-radius: 0 3px 3px 0;
+  font-size: .95rem; 
+  font-family: 'League Spartan', sans-serif;
+}
