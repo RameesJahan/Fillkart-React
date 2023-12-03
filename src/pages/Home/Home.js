@@ -1,14 +1,14 @@
 import React from 'react';
 import './Home.css';
 
-import Banner from '../components/Banner/Banner';
-import CategoryTab from '../components/CategoryTab/CategoryTab';
-import HotDeals from '../components/Deals/HotDeals';
-import Deals from '../components/OtherDeals/OtherDeals';
+import Banner from '../../components/Banner/Banner';
+import CategoryTab from '../../components/CategoryTab/CategoryTab';
+import HotDeals from '../../components/Deals/HotDeals';
+import Deals from '../../components/OtherDeals/OtherDeals';
 
 function Home() {
   return (
-    <div className="container">
+    <div className="container" >
       <div className="section-top">
         <Banner/>
         <CategoryTab/>

@@ -7,12 +7,12 @@ import MenuIcon from "../../assets/icons/menu-bar.png";
 import CartIcon from "../../assets/icons/shopping-cart.png";
 import Logo from "../../assets/Fillkart-logo-light-croped.png";
 
-function Header() {
+function Header({onOpenMenu}) {
   return (
     <header className="header">
       <div className="row">
         <div>
-          <img className="img-icon" src={MenuIcon} alt="Menu Bar Icon" />
+          <img onClick={() => onOpenMenu()} className="img-icon" src={MenuIcon} alt="Menu Bar Icon" />
         </div>
         <div>
           <img className="header-logo" src={Logo} alt="Fillkart Logo" />
