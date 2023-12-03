@@ -18,6 +18,7 @@ const NavBar = ({ show, onClose }) => {
   };
   const handleCat = () => {
     console.log("Catagory");
+    navigate('/categories')
   };
   const handleCart = () => {
     console.log("Cart");

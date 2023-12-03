@@ -1,0 +1,30 @@
+.nf-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.nf-content>p{
+  max-width: 390px;
+  margin: 16px;
+}
+
+.nf-head{
+  margin: 16px;
+  font-size: 180px;
+  font-weight: 200;
+  color: #0085ff;
+}
+.nf-btn{
+  margin: 16px;
+  font-weight: 300;
+  font-size: 24px;
+  color: #0085ff;
+  border: 1px solid #0085ff;
+  border-radius: 4px;
+  padding: 8px 12px;
+}

@@ -1,10 +1,10 @@
 import React,{ useState } from 'react';
+import { Outlet } from "react-router-dom";
 import './App.css';
 
 import Header from './components/Header/Header';
 import NavBar from './components/NavBar/NavBar'
 
-import Home from './pages/Home/Home'
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <Header onOpenMenu={handleOpen}/>
       <NavBar show={open} onClose={handleClose}/>
-      <Home />
+      <Outlet />
     </div>
   );
 }
