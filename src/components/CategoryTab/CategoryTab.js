@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import './CategoryTab.css';
 
 import ImgLaptop from '../../assets/images/category_1.png';
@@ -9,6 +10,7 @@ import ImgPhones from '../../assets/images/category_5.png';
 import ImgWomen from '../../assets/images/category_6.png';
 
 function CategoryTab() {
+  const navigate = useNavigate();
   
   const categories=[{ name:"Accessories",image:ImgAccessories},
                     { name:"Kids",image:ImgKids},
@@ -20,7 +22,7 @@ function CategoryTab() {
   return (
     <div className="category-container">
       {categories.map((obj,i) => 
-        <div key={i} className="category-item">
+        <div key={i} className="category-item" onClick={() => navigate('/categories/'+obj.name.toLowerCase())} >
           <img className="img-category" src={obj.image} alt="Category" />
           <p className="title-category">{obj.name}</p>
         </div>

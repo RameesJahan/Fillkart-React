@@ -10,30 +10,31 @@ const NavBar = ({ show, onClose }) => {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    console.log("Login");
+    onClose()
     navigate('/auth/signin')
   };
   const handleHome = () => {
-    console.log("Home");
+    onClose()
+    navigate('/')
   };
   const handleCat = () => {
-    console.log("Catagory");
+    onClose()
     navigate('/categories')
   };
   const handleCart = () => {
-    console.log("Cart");
+    onClose()
   };
   const handleWish = () => {
-    console.log("Wishlist");
+    onClose()
   };
   const handleAbout = () => {
-    console.log("About");
+    onClose()
   };
   const handleHelp = () => {
-    console.log("Help");
+    onClose()
   };
   const handleSettings = () => {
-    console.log("Settings");
+    onClose()
   };
 
   const navItems = [
