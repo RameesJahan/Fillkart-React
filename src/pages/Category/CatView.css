@@ -1,0 +1,14 @@
+.cat-view-container{
+  padding: 12px;
+  background: #eef1ff;
+  height: 100%;
+}
+.card-title{
+  color: #fbfbfbf6;
+  background: linear-gradient(to right, #ad5389, #3c1053);
+  text-align: center;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
