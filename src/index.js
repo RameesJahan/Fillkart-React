@@ -7,6 +7,7 @@ import Register from './pages/Signin/Signup';
 import Category from './pages/Category/Category';
 import CatView from './pages/Category/CatView';
 import Home from './pages/Home/Home';
+import Cart from './pages/Cart/Cart';
 import NotFound from './pages/NotFound/NotFound';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +19,7 @@ root.render(
           <Route index element={<Home />} />
           <Route path="categories" element={<Category />} />
           <Route path="categories/:category" element={<CatView />} />
+          <Route path="cart" element={<Cart />} />
           <Route path="*" element={<NotFound />} />
         </Route>
         <Route path="/auth/signin" element={<Login />} />

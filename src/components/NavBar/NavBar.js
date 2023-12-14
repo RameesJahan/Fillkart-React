@@ -23,6 +23,7 @@ const NavBar = ({ show, onClose }) => {
   };
   const handleCart = () => {
     onClose()
+    navigate('/cart')
   };
   const handleWish = () => {
     onClose()
