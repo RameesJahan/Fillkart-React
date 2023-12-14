@@ -18,8 +18,9 @@
 }
 
 .pro-card-img{
-  padding: 22px;
+  padding: 15%;
   width: 100%;
+  object-fit: contain;
 }
 .pro-card-name{
  margin: 8px;

@@ -23,7 +23,7 @@
   width: 100%;
   gap: 5px;
   margin-top: 8px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .deals-item{
@@ -49,6 +49,9 @@
   justify-content: center;
 }
 @media screen and (max-width: 520px) {
+  .deals-content{
+    flex-wrap: wrap;
+  }
   .deals-offer {
     flex-grow: 1;
   }

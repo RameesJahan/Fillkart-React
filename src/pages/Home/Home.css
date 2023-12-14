@@ -1,3 +1,9 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 a{
   text-decoration: none;
 }
@@ -16,4 +22,11 @@ a{
 }
 .section-footer>p>a{
   color: #0085FF;
+}
+
+.section-hot,
+.section-featured,
+.section-recomented
+{
+  padding: 0 10px;
 }
