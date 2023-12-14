@@ -1,0 +1,63 @@
+.wish-container{
+  overflow-x: hidden ;
+  background: #eef1ff;
+  height: 100%;
+}
+
+.wish-title-container{
+  padding: 12px;
+}
+
+.emt-wish-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 8px;
+  padding-top: 24px;
+  margin: 12px 0;
+  font-size: 20px;
+}
+
+.emt-wish-container>img{
+  width: 240px;
+  object-fit: contain;
+}
+
+.btn-emt-wish{
+  padding: 16px 20px;
+  margin: 24px 0;
+  background: #0085ff;
+  color: #fdfdfd;
+  border-radius: 4px;
+}
+
+.def-wish-container{
+  padding: 12px;
+  padding-top: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+@media only screen and (max-width:720px){
+  .def-wish-container{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+@media only screen and (max-width:480px){
+  .def-wish-container{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media only screen and (max-width:300px){
+  .def-wish-container{
+    grid-template-columns: 1fr;
+  }
+}
+
+.def-wish-item{
+  width: 100%;
+  padding: 5px;
+}

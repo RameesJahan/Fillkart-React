@@ -27,6 +27,7 @@ const NavBar = ({ show, onClose }) => {
   };
   const handleWish = () => {
     onClose()
+    navigate('/wishlist')
   };
   const handleAbout = () => {
     onClose()

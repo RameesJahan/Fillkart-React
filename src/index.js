@@ -8,6 +8,7 @@ import Category from './pages/Category/Category';
 import CatView from './pages/Category/CatView';
 import Home from './pages/Home/Home';
 import Cart from './pages/Cart/Cart';
+import Wishlist from './pages/Wishlist/Wishlist';
 import NotFound from './pages/NotFound/NotFound';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,6 +21,7 @@ root.render(
           <Route path="categories" element={<Category />} />
           <Route path="categories/:category" element={<CatView />} />
           <Route path="cart" element={<Cart />} />
+          <Route path="wishlist" element={<Wishlist />} />
           <Route path="*" element={<NotFound />} />
         </Route>
         <Route path="/auth/signin" element={<Login />} />
