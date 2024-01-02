@@ -90,13 +90,16 @@
 }
 
 .disc-drop-content-container{
-  height: 0;
-  overflow: hidden;
+  
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 300ms;
 }
 
 .disc-drop-content{
   padding: 8px;
+  overflow: hidden;
 }
 .disc-drop-content-container.active{
-  height: auto;
+  grid-template-rows: 1fr;
 }
