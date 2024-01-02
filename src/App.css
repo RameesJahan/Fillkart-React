@@ -1,13 +1,8 @@
-*,*::after,*::before{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .App{
   display: flex;
   flex-direction: column;
-  font-family: 'League Spartan', sans-serif;
   height: 100vh;
   height: 100svh;
+  max-width: 960px;
+  margin: 0 auto;
 }

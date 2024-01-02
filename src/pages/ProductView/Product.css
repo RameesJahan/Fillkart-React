@@ -1,0 +1,163 @@
+.pro-view-container{
+  background: #eef1ff;
+  padding: 12px 10px;
+} 
+
+.pro-view-content{
+  padding: 0 8px;
+}
+
+.pro-view-sec-top{
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+  background: #fdfdfd;
+}
+
+
+
+.pro-view-img-container{
+  flex: 1;
+  width: 100%;
+  padding: 8px;
+}
+
+.pro-view-img{
+  width: 100%;
+  aspect-ratio: 1/1;
+  padding: 15%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.pro-view-info-container{
+  padding: 12px 0;
+  flex: 1;
+  width: 100%;
+  position: relative;
+}
+
+.pro-view-info-container hr{
+  border: 1px solid #f5f5f5;
+  margin: 12px 0;
+}
+
+
+.pro-view-info-container .flex-row{
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  margin: 12px 0;
+  padding: 12px 16px;
+}
+
+.pro-view-name{
+  flex: 1;
+  width: 100%;
+  margin-right: 6px;
+  font-weight: 400;
+}
+
+.pro-view-wish-icon{
+  width: 42px;
+  height: 42px;
+  flex-shrink: 1;
+  border: 1px solid #1F1F1F;
+  color: #D2382E;
+  border-radius: 50%;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pro-view-brand{
+  color: #282828;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 12px 0;
+  padding: 0 16px;
+}
+
+.pro-view-price{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #0085FF;
+  margin: 12px 0;
+  padding: 0 16px;
+}
+
+.pro-view-price>span{
+  font-size: 1.25rem;
+  color: #bdbdbd;
+  text-decoration: line-through;
+}
+
+.pro-view-off{
+  color: #D2382E;
+  font-size: 1rem;
+  margin: 12px 0;
+  padding: 0 16px;
+}
+
+.pro-view-off>span{
+  color: #a3a3a3;
+}
+
+.pro-view-spec{
+  margin: 18px 0;
+  padding: 18px;
+  padding-left: 32px;
+  width: 100%;
+  position: relative;
+}
+
+.pro-view-spec>li{
+  font-size: 1.15rem;
+  color: #1F1F1F;
+  margin: 8px 0;
+  white-space: wrap;
+  position: relative;
+}
+
+.pro-view-btn{
+  flex: 1;
+  width: 100%;
+  padding: 8px 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.pro-view-btn.add{
+  border: 1px solid #0085FF;
+  border-radius: 4px;
+  color: #0085FF;
+  background: #fdfdfd;
+}
+
+.pro-view-btn.buy{
+  border: none;
+  border-radius: 4px;
+  color: #fdfdfd;
+  background: #0085FF;
+}
+
+@media only screen and (max-width:720px){
+  .pro-view-sec-top{
+    flex-direction: column;
+  }
+  .pro-view-btns-container{
+    position: sticky;
+    bottom: 0;
+    background: #fdfdfd;
+    width: 100%;
+    border-top: 1px solid #f5f5f5 ;
+    border-bottom: 1px solid #f5f5f5 ;
+  }
+}
+
+.pro-view-sec-disc{
+  margin-top: 12px;
+  border-radius: 4px;
+  background: #fdfdfd;
+  padding: 4px;
+}
